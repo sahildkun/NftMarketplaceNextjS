@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-
+import logo from '../public/NFTKING.png'
 function Navbar() {
   return (
     <div>
@@ -11,7 +11,7 @@ function Navbar() {
         <div className='flex items-center justify-between'>
          {/* logo */}
          <div className='pl-6'>
-            <Link href='/'><Image src='' alt='sfvf'/>Logo</Link>
+            <Link href='/'><Image src={logo} alt='sfvf'/></Link>
          </div>
          {/* menu */}
          <div className='hidden md:flex space-x-10 text-white'>
