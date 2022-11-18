@@ -18,6 +18,10 @@
     background: hsla(0,1%,4%,1);
     background-image: linear-gradient(60deg, hsla(207,63%,24%,1) 0px,rgba(9,9,9,1) 100%);
 }
+@font-face {
+    font-family: nic;
+    src: url("../public/GTWalsheimPro-Regular.ttf")
+}
 #nic {
     font-family: nic;
 }
@@ -119,7 +123,7 @@
     .big{
         width: 180px;
         height: 220px;
-        transform: translate(-70%,15%);
+        transform: translate(-60%,15%);
     }
     .small{
         width: 50px;
@@ -197,4 +201,43 @@
 }
 ::-webkit-scrollbar-thumb:hover{
     background: linear-gradient(rgb(156, 2, 245),rgb(247, 80, 177));
+}
+#ima{
+    position: relative;
+}
+.img__img{
+    display: block;
+    width: 100% ;
+}
+.img__overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    opacity: 0;
+    transition: opacity 0.25s top ease-in 0.5s;
+}
+.img__overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.img__overlay:hover{
+    opacity: 1;
+
+}
+.img__overlay:hover > *{
+    transform: translateY(0);
+}
+@media(max-width: 500px) {
+    .img__overlay{
+        left:17px;
+        width:91%;
+        height:90%;
+    }
+
 }
