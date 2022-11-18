@@ -15,7 +15,7 @@ function Navbar() {
          </div>
          {/* menu */}
          <div className='hidden md:flex space-x-10 text-white'>
-            {/* <Link href='/home' className=' hover:text-purple-500'>HOME </Link> */}
+            <Link href='/Marketplace' className=' hover:text-purple-500'>MARKETPLACE</Link>
             <Link href='/explore'  className='hover:text-purple-500'>Explore</Link>
             <Link href='/mintnft'  className='hover:text-purple-500'>MINT Nft</Link>
             <Link href='/about'  className='hover:text-purple-500'>About</Link>

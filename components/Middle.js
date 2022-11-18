@@ -10,7 +10,7 @@ function Middle() {
         <div class="h-auto bg-bgpic ">
        <div class="flex flex-col md:flex-row items-center px-5 mx-auto  space-y-8 lg:space-x-80  pt-36" >
            <div class="text-4xl text-white lg:text-6xl font-bold text-center lg:ml-12 lg:mt-12 md:text-5xl md:text-left" id="nic">Trending This Week</div>
-           <div class="max-w-md text-md text-center text-white lg:ml-12 mx-auto md:text-left md:w-1/2">Various kinds of Artwork categories that are trending this week.The trend will be reset evrey week.Don't miss out on the best artworks every week</div>
+           <div class="max-w-md text-md text-center text-white lg:ml-12 mx-auto md:text-left md:w-1/2">Various kinds of Artwork categories that are trending this week.The trend will be reset evrey week.Dont miss out on the best artworks every week</div>
        </div>
        <div class="md:flex justify-around py-20 space-y-20 md:space-y-0">
         <div class="flex flex-col space-y-20">
