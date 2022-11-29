@@ -14,11 +14,11 @@ module.exports = {
       chainId: 1337 // config standard 
     },
     goerli:{
-      url:`https://goerli.infura.io/v3/${projectId}`,
+      url:`https://goerli.infura.io/v3/61d3b0f633334b44a8f673781327c3bc`,
       accounts:[keyData]
     },
     mainnet: {
-      url:`https://mainnet.infura.io/v3/${projectId}`,
+      url:`https://mainnet.infura.io/v3/61d3b0f633334b44a8f673781327c3bc`,
       accounts:[keyData]
     }
   },
